@@ -27,7 +27,7 @@ class Audio:
 
         self.sample_rate = sample_rate
 
-        self.block_size = int(sample_rate * (interval /1000))
+        self.block_size = int(sample_rate * (interval /1000)) 
 
 
 def audio_callback(indata, frames, time, status):

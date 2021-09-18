@@ -1,5 +1,5 @@
-
-# print(sd.query_devices())
+import board
+import neopixel
 
 size = 100
 pin = board.D12
