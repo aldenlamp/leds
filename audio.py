@@ -3,7 +3,8 @@ import gradient as gd
 import sys
 import math
 import numpy as np
-from scipy.fftpack import fft
+# from scipy.fftpack import fft
+from scipy.fft import fft
 import sounddevice as sd
 
 # import board
